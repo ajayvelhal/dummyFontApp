@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     if(Platform.isIOS){
-      fonts = GoogleFonts.anton();
+      fonts = GoogleFonts.longCang(fontSize: 16,fontWeight: FontWeight.w400);
     }
     else{
       fonts = GoogleFonts.roboto(fontWeight: FontWeight.bold);
